@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Writing a backend code for youtube clone",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,9 @@
     "mongo"
   ],
   "author": "Manish Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
 }
